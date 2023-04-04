@@ -1,0 +1,28 @@
+#gameDiv{
+    font-family: "Copperplate";
+    border: 3px dashed;
+    border-radius: 200px;
+    padding: 100px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.choiceBtn:hover {
+    transform: scale(1.1);
+    background-color: #F7CACA;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+    transition: all 0.2s ease-in-out;
+}
+
+#playerText{
+    color: burlywood;
+}
+#computerText{
+    color: darkslategray;
+}
+#resultText{
+    color: skyblue;
+}
+#scoreText{
+    color: antiquewhite;
+
+}

@@ -1,0 +1,7 @@
+A terminal is a tool that allows you to interact with your computer through text commands. It's like a window that lets you type in commands and receive text-based feedback. Think of it like texting your computer instead of clicking buttons. The terminal can be used for tasks like navigating files and folders, installing software, and running programs. It's an important tool for developers and 
+programmers, and can help make certain tasks faster and more efficient once you get the hang of it.
+
+GitHub is a web-based hosting service for Git repositories. It provides a graphical interface and additional collaboration tools to help you manage and share your Git repositories with others. You can use GitHub to host and share your code with the world, track issues and bugs, and collaborate with other developers.
+
+Git is a version control system that allows you to keep track of changes to your code over time. It's a command-line tool that you can use locally on your computer to manage your code and collaborate with others.
+clear.

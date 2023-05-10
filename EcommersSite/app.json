@@ -1,0 +1,101 @@
+[
+  {
+    "name": "BORUTO - Naruto (Baryon Mode)",
+    "price": 30.99,
+    "image": "img/naruto.png",
+    "desc": "Witness the tremendous power of the Seventh Hokage, Naruto, as he and Kurama activate Baryon Mode."
+  },
+  {
+    "name": "MY HERO ACADEMIA - Deku",
+    "price": 15.99,
+    "image": "img/Deku.png",
+    "desc": "“My motivation might seem trivial compared to yours, but I can’t lose either. I have to live up to the hopes of those who supported me.” Deku is ready."
+  },
+  {
+    "name": "DRAGON BALL Z - Vegeta",
+    "price": 12.99,
+    "image": "img/Majin Vegeta.png",
+    "desc": "Babidi has invaded Vegeta's mind and possessed him, creating Majin Vegeta."
+  },
+
+  {
+    "name": "ONE PIECE - Monkey D. Luffy",
+    "price": 12.99,
+    "image": "img/luffy.png",
+    "desc": "Monkey D. Luffy is determined to become the Pirate King by finding Gol D. Roger's legendary treasure."
+  },
+  {
+    "name": "Attack on Titan - Captain Levi",
+    "price": 14.99,
+    "image": "img/Captain Levi.png",
+    "desc": "Titans, hungry for humans, are on the loose! Help destroy them with Levi Ackerman. As a leader of the Special Operations Squad, Levi is dressed to kill"
+  },
+  {
+    "name": "JUJUTSU KAISEN - Satoro Gojo",
+    "price": 15.99,
+    "image": "img/Gojo Unmaskedpng.png",
+    "desc": "Class is in session with Pop! Satoru Gojo in charge. Pop! Satoru Gojo is harnessing his Hollow Purple technique, ready to take on the cursed spirits."
+  },
+  {
+    "name": "HUNTER X HUNTER - Kite",
+    "price": 15.99,
+    "image": "img/kite.png",
+    "desc": "Help Kite defeat Yunju with the Hunter X Hunter Pop! Kite with Carbine."
+  },
+  {
+    "name": "HUNTER X HUNTER - Killua Zoldyck",
+    "price": 12.99,
+    "image": "img/Killua.png",
+    "desc": "Killua runs away from his family to become a hunter instead of following the family tradition of becoming an assassin."
+  },
+  {
+    "name": "FULMETAL ALCHEMIST - Edward Elric",
+    "price": 15.99,
+    "image": "img/Edward.png",
+    "desc": "Alchemist, Edward Elric is searching for the Philosopher's Stone to repair his brother, Alphonse, from a failed transmutation experiment."
+  },
+  {
+    "name": "DEMON SLAYER - Tanjiro VS Rui",
+    "price": 35.99,
+    "image": "img/Tanjiro vs Rui.png",
+    "desc": "Only two of the Kamado family survived a demon attack, and now there out for revenge."
+  },
+  {
+    "name": "BLACK CLOVER - ASTA",
+    "price": 12.99,
+    "image": "img/Asta.png",
+    "desc": "Arriving from the outskirts of the Clover Kingdom is Asta. Save your magic and jump on the chance to complete your collection with Asta today!"
+  },
+  {
+    "name": "NARUTO SHIPPUDEN - Madara",
+    "price": 15.99,
+    "image": "img/Madara.png",
+    "desc": "In the fight for peace, Madara Uchiha achieves Sage Mode to harness a greater level of power."
+  },
+  {
+    "name": "DRAGON BALL SUPER - Goku",
+    "price": 15.99,
+    "image": "img/Goku.png",
+    "desc": "Goku looks like he's on fire but, in reality, he has achieved Super Saiyan God Super Saiyan form. This exclusive, glow-in-the-dark Pop!" 
+  },
+  {
+    "name": "ONE PIECE - 4 Pack",
+    "price": 35.99,
+    "image": "img/4pack.png",
+    "desc": "Monkey D. Luffy is determined to become the Pirate King by finding Gol D. Roger's legendary treasure. Help Luffy on his journey by bringing Pop! Luffytaro, Pop! Sabo, Pop! Roronoa Zoro, and Pop! Jinbe into your One Piece collection."
+  },
+  {
+    "name": "JUJUTSU KAISEN - Sukuna",
+    "price": 12.99,
+    "image": "img/ Sukuna.png",
+    "desc": "Sukuna has taken his host, Yuji Itadori, hostage and ripped his heart out. Can you save Yuji by collecting the exclusive Pop! Ryomen Sukuna for your Jujustu Kaisen collection."
+  },
+  {
+    "name": "NARUTO SHIPPUDEN - Momoshiki",
+    "price": 15.99,
+    "image": "img/Momoshiks.png",
+    "desc": "This exclusive Pop! Momoshiki has absorbed enough chakra to transform his appearance and enhance his powers, but he is still hungry for more."
+  }
+
+
+]

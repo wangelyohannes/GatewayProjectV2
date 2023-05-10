@@ -1,0 +1,303 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap'); */
+:root {
+  --hover-color: firebrick;
+  --background-color: #1d1d23;
+}
+/* this contains all the styles and fonts inported  */
+/* this has the sizing and font and color layout for the page */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  transition: 0.5s;
+  text-transform: capitalize;
+}
+/* the font size uses 65% of the screen and the scroll behavior is set to smooth to allow easy movement */
+html {
+  font-size: 65%;
+  scroll-behavior: smooth;
+}
+/* this contains my background color, position fixed so it stays in place even if moved */
+.header {
+  padding: 1rem 7%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background: #1d1d23;
+}
+
+/* this controled the navbar the size, color and postioning of buttons */
+.navbar a {
+  color: white;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+/* adds the root hovor feature to contact botton that changes its color */
+.navbar a:hover {
+  color: var(--hover-color);
+}
+/* control the icon bottons for the navbar */
+.contactBotton div i {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 10px;
+  display: none;
+}
+/* this allows the hover to activate when using the pointer */
+.contactBotton div:hover {
+  cursor: pointer;
+}
+/* this is the outline of the box on the contact botton when using the pointer */
+.contactBotton a {
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: 1px solid firebrick;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 0.5s;
+  display: inline-block;
+}
+/* this changes the appearance of a button when hovered */
+.contact-btn:hover {
+  transform: scale(1.1);
+  background: var(--hover-color);
+  border: 1px solid white;
+}
+.navbar-mobile{
+  display: none;
+}
+@media (max-width: 768px){
+  .navbar{
+    display: none;
+  } 
+.navbar-mobile {
+    overflow: hidden;
+    display: block;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar-mobile a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+    }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar-mobile a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+#hero {
+  width: 100%;
+  height: 100%;
+  background: url("img/bleach tinted hero img.jpeg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 32px;
+}
+.logopic {
+  height: 55px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.heroHolder {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.hero-box {
+  width: 50%;
+  margin-top: 200px;
+}
+.hero-box .hero-heading {
+  color: white;
+  font-size: 50px;
+  line-height: 65px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  padding-left: 20px;
+}
+.hero-box .hero-desc {
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.logo img {
+  width: 60px;
+}
+
+h1 {
+  font-size: 5rem;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  color: firebrick;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  padding: 50px;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.product-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-item h2 {
+  font-size: 1.6rem;
+  margin: 20px 0 10px;
+}
+
+.product-item p {
+  font-size: 1.2rem;
+  margin: 10px 0 20px;
+}
+
+.product-item button {
+  background-color: #d72828;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.product-item button:hover {
+  background-color: #b52222;
+}
+
+.footer {
+  bottom: 0%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-footer {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-logo img {
+  width: 200px;
+}
+.footer-navbar {
+  margin-top: 15px;
+}
+.footer-navbar a {
+  color: white;
+  font-size: 18px;
+  margin: 1rem;
+  padding: 1rem;
+}
+.footer-navbar a:hover {
+  color: firebrick;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 10px;
+  color: white;
+  transition: color 0.2s ease-in-out;
+}
+
+.social-media a:hover {
+  color: firebrick;
+}
+
+.social-media i {
+  font-size: 20px;
+}
